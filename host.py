@@ -8,7 +8,7 @@ def draw_graph(vertices, edges, coloring):
     G.add_nodes_from(list(range(vertices)))
     G.add_edges_from(edges)
     pos = nx.spring_layout(G)
-    options = {"node_size": 500, "alpha": 0.8}
+    options = {"node_size": 500, "alpha": 1}
     nx.draw_networkx_nodes(G, pos, nodelist=[i for i, x in enumerate(coloring) if x == 0], node_color="r", **options)
     nx.draw_networkx_nodes(G, pos, nodelist=[i for i, x in enumerate(coloring) if x == 1], node_color="b", **options)
     nx.draw_networkx_nodes(G, pos, nodelist=[i for i, x in enumerate(coloring) if x == 2], node_color="y", **options)
