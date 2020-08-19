@@ -25,6 +25,15 @@
         return Arrays.ForEach(measureColor, splicedArray);
     }
 
+    /// # Summary
+    /// Flips a target qubit if 2 colors are equal
+    /// # Input
+    /// ## c0
+    /// Register of qubits representing the first color
+    /// ## c1
+    /// Register of qubits representing the second color
+    /// ## target
+    /// target qubit to flip if the colors are equal
     operation ColorEqualityOracle_Nbit (c0 : Qubit[], c1 : Qubit[], target : Qubit) : Unit is Adj+Ctl {
         for ((q0, q1) in Arrays.Zip(c0, c1)) {
             CNOT(q0, q1);

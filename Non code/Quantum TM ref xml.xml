@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<b:Sources xmlns:b="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" xmlns="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" SelectedStyle="">
+    <b:Source>
+        <b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+        <b:SourceType>JournalArticle</b:SourceType>
+        <b:Title>A fast quantum mechanical algorithm for database search</b:Title>
+        <b:Tag>Grover1996</b:Tag>
+        <b:BIBTEX_Abstract>Imagine a phone directory containing N names arranged in completely random order. In order to find someone's phone number with a 50% probability, any classical algorithm (whether deterministic or probabilistic) will need to look at a minimum of N/2 names. Quantum mechanical systems can be in a superposition of states and simultaneously examine multiple names. By properly adjusting the phases of various operations, successful computations reinforce each other while others interfere randomly. As a result, the desired phone number can be obtained in only O(sqrt(N)) steps. The algorithm is within a small constant factor of the fastest possible quantum mechanical algorithm.</b:BIBTEX_Abstract>
+        <b:BIBTEX_KeyWords>quant-ph</b:BIBTEX_KeyWords>
+        <b:Author>
+            <b:Author>
+                <b:NameList>
+                    <b:Person>
+                        <b:Last>Grover</b:Last>
+                        <b:Middle>K.</b:Middle>
+                        <b:First>Lov</b:First>
+                    </b:Person>
+                </b:NameList>
+            </b:Author>
+        </b:Author>
+        <b:Year>1996</b:Year>
+        <b:Month>5</b:Month>
+        <b:Day>29</b:Day>
+    </b:Source>
+    <b:Source>
+        <b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+        <b:SourceType>JournalArticle</b:SourceType>
+        <b:Title>A formal proof of the four color theorem</b:Title>
+        <b:Tag>Xiang2009</b:Tag>
+        <b:BIBTEX_Abstract>A formal proof has not been found for the four color theorem since 1852 when Francis Guthrie first conjectured the four color theorem. Why? A bad idea, we think, directed people to a rough road. Using a similar method to that for the formal proof of the five color theorem, a formal proof is proposed in this paper of the four color theorem, namely, every planar graph is four-colorable. The formal proof proposed can also be regarded as an algorithm to color a planar graph using four colors so that no two adjacent vertices receive the same color.</b:BIBTEX_Abstract>
+        <b:BIBTEX_KeyWords>cs.DM, G.2.2</b:BIBTEX_KeyWords>
+        <b:Author>
+            <b:Author>
+                <b:NameList>
+                    <b:Person>
+                        <b:Last>Xiang</b:Last>
+                        <b:First>Limin</b:First>
+                    </b:Person>
+                </b:NameList>
+            </b:Author>
+        </b:Author>
+        <b:Year>2009</b:Year>
+        <b:Month>5</b:Month>
+        <b:Day>22</b:Day>
+    </b:Source>
+    <b:Source>
+        <b:Year>1927</b:Year>
+        <b:Volume>43</b:Volume>
+        <b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+        <b:SourceType>JournalArticle</b:SourceType>
+        <b:Title>Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik</b:Title>
+        <b:Tag>1927ZPhy...43..172H</b:Tag>
+        <b:DOI>10.1007/BF01397280</b:DOI>
+        <b:Author>
+            <b:Author>
+                <b:NameList>
+                    <b:Person>
+                        <b:Last>Heisenberg</b:Last>
+                        <b:First>W.</b:First>
+                    </b:Person>
+                </b:NameList>
+            </b:Author>
+        </b:Author>
+        <b:Pages>172-198</b:Pages>
+        <b:Month>3</b:Month>
+        <b:JournalName>Zeitschrift fur Physik</b:JournalName>
+        <b:Number>3-4</b:Number>
+    </b:Source>
+    <b:Source>
+        <b:LCID>1033</b:LCID>
+        <b:Year>2004</b:Year>
+        <b:Volume>160</b:Volume>
+        <b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+        <b:SourceType>JournalArticle</b:SourceType>
+        <b:Title>PRIMES is in P.</b:Title>
+        <b:Publisher>Princeton University, Mathematics Department, Princeton, NJ</b:Publisher>
+        <b:Tag>Agrawal2004</b:Tag>
+        <b:Author>
+            <b:Author>
+                <b:NameList>
+                    <b:Person>
+                        <b:Last>Agrawal</b:Last>
+                        <b:First>Manindra</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Kayal</b:Last>
+                        <b:First>Neeraj</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Saxena</b:Last>
+                        <b:First>Nitin</b:First>
+                    </b:Person>
+                </b:NameList>
+            </b:Author>
+        </b:Author>
+        <b:Pages>781–793</b:Pages>
+        <b:JournalName>Ann. Math. (2)</b:JournalName>
+        <b:Number>2</b:Number>
+        <b:StandardNumber> ISSN: 0003-486X; 1939-8980/e</b:StandardNumber>
+    </b:Source>
+</b:Sources>
