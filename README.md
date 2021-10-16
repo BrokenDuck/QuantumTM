@@ -1,2 +1,2 @@
 # QuantumTM
-Repo to store the code for my TM
+Repository to store the code and document about my student graduation paper.
